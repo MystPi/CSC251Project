@@ -107,14 +107,14 @@ public class Policy {
       return (weight * 703.0) / (height * height);
    }
    
-   public double calculatePolicyPrice() {
+   public double calculatePrice() {
       double price = 600;
       
       if (age > 50) {
          price += 75;
       }
       
-      if (smokingStatus.equals("smoker")) {
+      if (smokingStatus.equalsIgnoreCase("smoker")) {
          price += 100;
       }
       
