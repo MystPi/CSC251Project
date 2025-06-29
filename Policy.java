@@ -20,23 +20,23 @@ public class Policy {
    }
    
    public Policy(
-      int num,
-      String pName,
-      String fname,
-      String lname,
-      int a,
-      String smoking,
-      double h,
-      double w
+      int number,
+      String providerName,
+      String firstName,
+      String lastName,
+      int aage,
+      String smokingStatus,
+      double height,
+      double weight
    ) {
-      number = num;
-      providerName = pName;
-      firstName = fname;
-      lastName = lname;
-      age = a;
-      smokingStatus = smoking;
-      height = h;
-      weight = w;
+      this.number = number;
+      this.providerName = providerName;
+      this.firstName = firstName;
+      this.lastName = lastName;
+      this.age = age;
+      this.smokingStatus = smokingStatus;
+      this.height = height;
+      this.weight = weight;
    }
    
    public void setNumber(int num) {
