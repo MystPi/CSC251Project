@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.io.File;
 import java.io.IOException;
 
-public class ProjectNoahBlau {
+public class PolicyDemo {
    public static void main(String[] args) throws IOException {
       ArrayList<Policy> policyList = new ArrayList<Policy>();
       
